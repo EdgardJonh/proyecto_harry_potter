@@ -2,7 +2,9 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/hechizos">Hechizos</router-link>|
+      <router-link to="/personajes">Personajes</router-link>|
+      <router-link to="/libros">Libros</router-link>
     </nav>
     <router-view/>
   </div>
@@ -15,6 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #0c2425;
 }
 
 nav {
@@ -23,10 +26,11 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #f5f5f5;
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #ffa928;
 }
 </style>
